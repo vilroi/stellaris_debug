@@ -52,7 +52,7 @@ class APSR:
             case _:
                 return "Unknown Exception: {}".format(n)
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return """
         val: {}
         N: {}
